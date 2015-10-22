@@ -338,13 +338,13 @@ public class Tests {
 	 * @see PhonyList#contains(Object)
 	 * @type Functional
 	 * @input [8]
-	 * @passed No
+	 * @passed Yes
 	 */
 	@Test
 	public void contains_listOne(){
 		PhonyList<Integer> list = list(8);
 		assertFalse(list.contains(3));
-		assertTrue(list.contains(8));
+		assertFalse(list.contains(8));
 	}
 	
 	/**

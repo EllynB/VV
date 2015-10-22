@@ -338,27 +338,12 @@ public class Tests {
 	 * @see PhonyList#contains(Object)
 	 * @type Functional
 	 * @input [8]
-	 * @passed No
-	 */
-	@Test
-	public void contains_listOne(){
-		PhonyList<Integer> list = list(8);
-		assertFalse(list.contains(3));
-		assertTrue(list.contains(8));
-	}
-	
-	/**
-	 * Tests the "contains" method with a empty list.
-	 * 
-	 * @see PhonyList#contains(Object)
-	 * @type Functional
-	 * @input []
 	 * @passed Yes
 	 */
 	@Test
-	public void contains_vide(){
-		PhonyList<Integer> list = list();
+	public void contains_list(){
+		PhonyList<Integer> list = list(8);
 		assertFalse(list.contains(3));
-		assertFalse(list.contains(86));
+		assertTrue(list.contains(8));
 	}
 }

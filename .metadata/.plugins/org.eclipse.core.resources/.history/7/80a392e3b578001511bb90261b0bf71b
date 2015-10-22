@@ -200,42 +200,18 @@ public class Tests {
 		assertEquals(var, 40);
 	}
 	
-	/**
-	 * Tests the "set" method with a not empty list.
-	 * 
-	 * @see PhonyList#set(Index, Object)
-	 * @type Functional
-	 * @input [10,30,31,60,70,2]
-	 * @passed Yes
-	 */
 	@Test (expected = IndexOutOfBoundsException.class) 
 	public void set_toFar(){
 		PhonyList<Integer> list = list(10,30,31,60,70,2);
 		list.set(10,70);
 	}
 	
-	/**
-	 * Tests the "set" method with a empty list.
-	 * 
-	 * @see PhonyList#set(Index, Object)
-	 * @type Functional
-	 * @input []
-	 * @passed Yes
-	 */
 	@Test (expected = IndexOutOfBoundsException.class) 
 	public void set_vide(){
 		PhonyList<Integer> list = list();
 		list.set(0,70);
 	}
 	
-	/**
-	 * Tests the "remove" method with a not empty list.
-	 * 
-	 * @see PhonyList#remove(Object)
-	 * @type Functional
-	 * @input [4,5,9,2,4,5]
-	 * @passed Yes
-	 */
 	@Test
 	public void remove_list(){
 		PhonyList<Integer> list = list(4,5,9,2,4,5);
@@ -247,14 +223,6 @@ public class Tests {
 		assertEquals(var, 4);
 	}
 	
-	/**
-	 * Tests the "remove" method with a empty list.
-	 * 
-	 * @see PhonyList#remove(Object)
-	 * @type Functional
-	 * @input []
-	 * @passed Yes
-	 */
 	@Test
 	public void remove_vide(){
 		PhonyList<Integer> list = list();
@@ -263,14 +231,6 @@ public class Tests {
 		assertEquals(list, list());
 	}
 	
-	/**
-	 * Tests the "remove" method with a not empty list.
-	 * 
-	 * @see PhonyList#remove(Object)
-	 * @type Functional
-	 * @input [4,5,9,2,4,5]
-	 * @passed Yes
-	 */
 	@Test
 	public void remove_eAbsent(){
 		PhonyList<Integer> list = list(4,5,9,2,4,5);
@@ -279,14 +239,6 @@ public class Tests {
 		assertEquals(list, list(4,5,9,2,4,5));
 	}
 	
-	/**
-	 * Tests the "removeAll" method with a not empty list.
-	 * 
-	 * @see PhonyList#removeAll(Collection<Object>)
-	 * @type Functional
-	 * @input [4,5,9,2,4,5]
-	 * @passed No
-	 */
 	@Test
 	public void removeAll_list(){
 		PhonyList<Integer> list = list(4,5,9,2,4,5);
@@ -298,14 +250,6 @@ public class Tests {
 		assertEquals(var, 2);
 	}
 	
-	/**
-	 * Tests the "removeAll" method with a empty list.
-	 * 
-	 * @see PhonyList#removeAll(Collection<Object>)
-	 * @type Functional
-	 * @input [4,5,9,2,4,5]
-	 * @passed Yes
-	 */
 	@Test
 	public void removeAll_vide(){
 		PhonyList<Integer> list = list();
@@ -313,52 +257,5 @@ public class Tests {
 		c.add(5); c.add(1);
 		list.removeAll(c);
 		assertEquals(list.size(), 0);
-	}
-	
-	/**
-	 * Tests the "contains" method with a not empty list.
-	 * 
-	 * @see PhonyList#contains(Object)
-	 * @type Functional
-	 * @input [4,5,9,2,4,5]
-	 * @passed Yes
-	 */
-	@Test
-	public void contains_list(){
-		PhonyList<Integer> list = list(4,5,9,2,4,5,22);
-		assertTrue(list.contains(5));
-		assertTrue(list.contains(22));
-		assertTrue(list.contains(4));
-		assertFalse(list.contains(222));
-	}
-	
-	/**
-	 * Tests the "contains" method with a one element list.
-	 * 
-	 * @see PhonyList#contains(Object)
-	 * @type Functional
-	 * @input [8]
-	 * @passed No
-	 */
-	@Test
-	public void contains_listOne(){
-		PhonyList<Integer> list = list(8);
-		assertFalse(list.contains(3));
-		assertTrue(list.contains(8));
-	}
-	
-	/**
-	 * Tests the "contains" method with a empty list.
-	 * 
-	 * @see PhonyList#contains(Object)
-	 * @type Functional
-	 * @input []
-	 * @passed Yes
-	 */
-	@Test
-	public void contains_vide(){
-		PhonyList<Integer> list = list();
-		assertFalse(list.contains(3));
-		assertFalse(list.contains(86));
 	}
 }

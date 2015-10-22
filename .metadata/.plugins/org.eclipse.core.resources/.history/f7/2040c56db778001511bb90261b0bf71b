@@ -1,7 +1,7 @@
 - equals(Object)
 + size()
 + isEmpty()
-+ contains(Object) -> erreurs
+-+ contains(Object)
 + indexOf(Object)
 + get(index)
 + set(index, element) -> erreur
