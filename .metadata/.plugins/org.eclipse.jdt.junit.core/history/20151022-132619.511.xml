@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestPhonyListExample" project="PhonyList" tests="13" started="13" failures="0" errors="0" ignored="0">
+  <testsuite name="system.TestPhonyListExample" time="0.0">
+    <testcase name="clear_thousandElements" classname="system.TestPhonyListExample" time="0.0"/>
+    <testcase name="indexOf_smallDoubleInt" classname="system.TestPhonyListExample" time="0.0"/>
+    <testcase name="indexOf_oneElementPresent" classname="system.TestPhonyListExample" time="0.0"/>
+    <testcase name="indexOf_thousandElementsLastPresent" classname="system.TestPhonyListExample" time="0.0"/>
+    <testcase name="clear_emptyList" classname="system.TestPhonyListExample" time="0.0"/>
+    <testcase name="indexOf_smallLastPresent" classname="system.TestPhonyListExample" time="0.0"/>
+    <testcase name="clear_oneElement" classname="system.TestPhonyListExample" time="0.0"/>
+    <testcase name="indexOf_smallWrong" classname="system.TestPhonyListExample" time="0.0"/>
+    <testcase name="indexOf_smallFirstPresent" classname="system.TestPhonyListExample" time="0.0"/>
+    <testcase name="indexOf_emptyList" classname="system.TestPhonyListExample" time="0.0"/>
+    <testcase name="indexOf_smallDoubleNull" classname="system.TestPhonyListExample" time="0.0"/>
+    <testcase name="indexOf_thousandElementsWrong" classname="system.TestPhonyListExample" time="0.0"/>
+    <testcase name="indexOf_oneElementWrong" classname="system.TestPhonyListExample" time="0.0"/>
+  </testsuite>
+</testrun>

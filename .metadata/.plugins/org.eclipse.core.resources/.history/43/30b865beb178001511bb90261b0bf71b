@@ -1,0 +1,15 @@
+- equals(Object)
++ size()
++ isEmpty()
+- contains(Object)
++ indexOf(Object)
++ get(index)
++ set(index, element) -> erreur
++ add(element)
++ remove (object)
++ clear()
+- addAll(index, collection element)
+- removeAll(collection element)
+
++ = fait
+- = a faire

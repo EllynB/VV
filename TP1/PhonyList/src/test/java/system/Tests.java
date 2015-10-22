@@ -5,6 +5,10 @@ package system;
 
 import static org.junit.Assert.*;
 
+import java.awt.List;
+import java.util.ArrayList;
+import java.util.Collection;
+
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -46,7 +50,7 @@ public class Tests {
 	 * @passed Yes
 	 */
 	@Test
-	public void addEmptyList(){
+	public void add_emptyList(){
 		Object o = new Object();
 		liste.add(o);
 		assertEquals("Testing add method",liste.size(),1);
@@ -63,7 +67,7 @@ public class Tests {
 	 * @passed Yes
 	 */
 	@Test
-	public void addSmallList(){
+	public void add_smallList(){
 		PhonyList<Integer> list = list(75);
 		list.add(4);
 		assertEquals("Testing add method",list.size(),2);
@@ -82,7 +86,7 @@ public class Tests {
 	 * @passed Yes
 	 */
 	@Test
-	public void getaddList(){
+	public void get_add_list(){
 		PhonyList<Integer> list = list(10,30,31,60,70,2);
 		assertEquals("Testing add method",list.size(),6);
 		int var = list.get(3);
@@ -100,7 +104,7 @@ public class Tests {
 	 * @passed Yes
 	 */
 	@Test (expected = IndexOutOfBoundsException.class) 
-	public void getVide(){
+	public void get_vide(){
 		PhonyList<Integer> list = list();
 		int var = list.get(3);
 	}
@@ -114,7 +118,7 @@ public class Tests {
 	 * @passed Yes
 	 */
 	@Test (expected = IndexOutOfBoundsException.class) 
-	public void getToFar(){
+	public void get_toFar(){
 		PhonyList<Integer> list = list(10,30,31,60,70,2);
 		int var = list.get(10);
 	}
@@ -128,7 +132,7 @@ public class Tests {
 	 * @passed Yes
 	 */
 	@Test
-	public void sizeEmpty(){
+	public void size_empty(){
 		PhonyList<Integer> list = list();
 		assertEquals(list.size(),0);
 	}
@@ -142,7 +146,7 @@ public class Tests {
 	 * @passed Yes
 	 */
 	@Test
-	public void sizeNotEmpty(){
+	public void size_notEmpty(){
 		PhonyList<Integer> list = list(20,52,10);
 		assertEquals(list.size(),3);
 	}
@@ -156,7 +160,7 @@ public class Tests {
 	 * @passed Yes
 	 */
 	@Test
-	public void emptyTrue(){
+	public void empty_true(){
 		PhonyList<Integer> list = list();
 		assertTrue(list.isEmpty());
 	}
@@ -170,7 +174,7 @@ public class Tests {
 	 * @passed Yes
 	 */
 	@Test
-	public void emptyFalse(){
+	public void empty_false(){
 		PhonyList<Integer> list = list(20);
 		assertFalse(list.isEmpty());
 		list.add(3);
@@ -178,7 +182,7 @@ public class Tests {
 	}
 
 	@Test
-	public void setList(){
+	public void set_list(){
 		PhonyList<Integer> list = list(20,40,15,68);
 		list.set(2, 4);
 		int var = list.get(2);
@@ -188,19 +192,19 @@ public class Tests {
 	}
 	
 	@Test (expected = IndexOutOfBoundsException.class) 
-	public void setToFar(){
+	public void set_toFar(){
 		PhonyList<Integer> list = list(10,30,31,60,70,2);
 		list.set(10,70);
 	}
 	
 	@Test (expected = IndexOutOfBoundsException.class) 
-	public void setVide(){
+	public void set_vide(){
 		PhonyList<Integer> list = list();
 		list.set(0,70);
 	}
 	
 	@Test
-	public void removeList(){
+	public void remove_list(){
 		PhonyList<Integer> list = list(4,5,9,2,4,5);
 		list.remove(4);
 		assertEquals(list.size(), 5);
@@ -208,7 +212,41 @@ public class Tests {
 		assertEquals(var, 5);
 		var = list.get(3);
 		assertEquals(var, 4);
-
-
+	}
+	
+	@Test
+	public void remove_vide(){
+		PhonyList<Integer> list = list();
+		list.remove(5);
+		assertEquals(list.size(), 0);
+		assertEquals(list, list());
+	}
+	
+	@Test
+	public void remove_eAbsent(){
+		PhonyList<Integer> list = list(4,5,9,2,4,5);
+		list.remove(20);
+		assertEquals(list.size(), 6);
+		assertEquals(list, list(4,5,9,2,4,5));
+	}
+	
+	@Test
+	public void removeAll_list(){
+		PhonyList<Integer> list = list(4,5,9,2,4,5);
+		ArrayList<Integer> c = new ArrayList<Integer>();
+		c.add(5); c.add(9); c.add(4);
+		list.removeAll(c);
+		assertEquals(list.size(), 1);
+		int var = list.get(0);
+		assertEquals(var, 2);
+	}
+	
+	@Test
+	public void removeAll_vide(){
+		PhonyList<Integer> list = list();
+		ArrayList<Integer> c = new ArrayList<Integer>();
+		c.add(5); c.add(1);
+		list.removeAll(c);
+		assertEquals(list.size(), 0);
 	}
 }

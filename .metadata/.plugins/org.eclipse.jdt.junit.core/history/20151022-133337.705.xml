@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Tests.remove_list" project="PhonyList" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="remove_list" classname="system.Tests" time="0.0"/>
+</testrun>
