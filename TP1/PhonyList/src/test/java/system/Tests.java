@@ -188,7 +188,7 @@ public class Tests {
 	 * @see PhonyList#set(Index, Object)
 	 * @type Functional
 	 * @input [20,40,15,68]
-	 * @passed No
+	 * @passed Yes
 	 */
 	@Test
 	public void set_list(){
@@ -285,7 +285,7 @@ public class Tests {
 	 * @see PhonyList#removeAll(Collection<Object>)
 	 * @type Functional
 	 * @input [4,5,9,2,4,5]
-	 * @passed No
+	 * @passed Yes
 	 */
 	@Test
 	public void removeAll_list(){
@@ -338,7 +338,7 @@ public class Tests {
 	 * @see PhonyList#contains(Object)
 	 * @type Functional
 	 * @input [8]
-	 * @passed No
+	 * @passed Yes
 	 */
 	@Test
 	public void contains_listOne(){
@@ -361,4 +361,185 @@ public class Tests {
 		assertFalse(list.contains(3));
 		assertFalse(list.contains(86));
 	}
+	
+	/**
+	 * Tests the "equals" method with a empty list.
+	 * 
+	 * @see PhonyList#equals(Object)
+	 * @type Functional
+	 * @input []
+	 * @passed Yes
+	 */
+	@Test
+	public void equals_vide(){
+		PhonyList<Integer> list1 = list();
+		PhonyList<Integer> list2 = list();
+		assertTrue(list1.equals(list2));
+	}
+	
+	/**
+	 * Tests the "equals" method with a not phony list.
+	 * 
+	 * @see PhonyList#equals(Object)
+	 * @type Functional
+	 * @input []
+	 * @passed Yes
+	 */
+	@Test
+	public void equals_notPhonyList(){
+		PhonyList<Integer> list1 = list();
+		ArrayList<Integer>list2 = new ArrayList(1);
+		assertFalse(list1.equals(list2));
+	}
+	
+	
+	/**
+	 * Tests the "equals" method with an element present.
+	 * 
+	 * @see PhonyList#equals(Object)
+	 * @type Functional
+	 * @input [1]
+	 * @passed Yes
+	 */
+	@Test
+	public void equals_equals(){
+		PhonyList<Integer> list1 = list(1);
+		PhonyList<Integer> list2 = list(1);
+		assertTrue(list1.equals(list2));
+	}
+	
+	/**
+	 * Tests the "equals" method with an element absent.
+	 * 
+	 * @see PhonyList#equals(Object)
+	 * @type Functional
+	 * @input [1]
+	 * @passed Yes
+	 */
+	@Test
+	public void equals_not_equals(){
+		PhonyList<Integer> list1 = list(1);
+		PhonyList<Integer> list2 = list(2);
+		assertFalse(list1.equals(list2));
+	}
+	
+	/**
+	 * Tests the "equals" method with two not equals lists.
+	 * 
+	 * @see PhonyList#equals(Object)
+	 * @type Functional
+	 * @input [1,3,5]
+	 * @passed Yes
+	 */
+	@Test
+	public void equals_not_equals_lists(){
+		PhonyList<Integer> list1 = list(1,3,5);
+		PhonyList<Integer> list2 = list(2,4,6);
+		assertFalse(list1.equals(list2));	
+		}
+	
+	/**
+	 * Tests the "equals" method with two equals lists.
+	 * 
+	 * @see PhonyList#equals(Object)
+	 * @type Functional
+	 * @input [1,2,3,4,5]
+	 * @passed Yes
+	 */
+	@Test
+	public void equals_equals_lists(){
+		PhonyList<Integer> list1 = list(1,2,3,4,5);
+		PhonyList<Integer> list2 = list(1,2,3,4,5);
+		assertTrue(list1.equals(list2));
+	}
+	
+	/**
+	 * Tests the "equals" method with two differents sized lists lists.
+	 * 
+	 * @see PhonyList#equals(Object)
+	 * @type Functional
+	 * @input [1,2,3]
+	 * @passed Yes
+	 */
+	@Test
+	public void equals_dif_size_lists1(){
+		PhonyList<Integer> list1 = list(1,2,3);
+		PhonyList<Integer> list2 = list(1,2);
+		assertFalse(list1.equals(list2));
+	}
+	
+	/**
+	 * Tests the "equals" method with two differents sized lists lists.
+	 * 
+	 * @see PhonyList#equals(Object)
+	
+ * @type Functional
+	 * @input [1,2]
+	 * @passed Yes
+	 */
+	@Test
+	public void equals_dif_size_lists2(){
+		PhonyList<Integer> list1 = list(1,2);
+		PhonyList<Integer> list2 = list(1,2,3);
+		assertFalse(list1.equals(list2));
+	}
+	
+	/**
+	 * Tests the "addAll" method with an empty list and an element.
+	 * 
+	 * @see PhonyList#equals(Object)
+	 * @type Functional
+	 * @input [4,5]
+	 * @passed Yes
+	 */
+	@Test
+	public void addAll_empty_oneElement_Index0(){
+		PhonyList<Integer> list1 = list();
+		ArrayList<Integer> c = new ArrayList<Integer>();
+		c.add(4);
+		c.add(5);
+		list1.addAll(0,c);
+		PhonyList<Integer> list2 = list(4,5);
+		assertTrue(list1.equals(list2));
+	}
+	
+	/**
+	 * Tests the "addAll" method with a list and an other list.
+	 * 
+	 * @see PhonyList#equals(Object)
+	 * @type Functional
+	 * @input [1,2,3]
+	 * @passed Yes
+	 */
+	@Test
+	public void addAll_empty_list_and_list(){
+		PhonyList<Integer> list1 = list(1,2,3);
+		ArrayList<Integer> c = new ArrayList<Integer>();
+		c.add(4);
+		c.add(5);
+		list1.addAll(3,c);
+		PhonyList<Integer> list2 = list(1,2,3,4,5);
+		assertTrue(list1.equals(list2));
+	}
+	
+	
+	/**
+	 * Tests the "addAll" method with an index out of range.
+	 * 
+	 * @see PhonyList#equals(Object)
+	 * @type Functional
+	 * @input [1]
+	 * @passed Yes
+	 */
+	@Test (expected = IndexOutOfBoundsException.class) 
+	public void addAll_empty_oneElement_Index1(){
+		PhonyList<Integer> list1 = list(1);
+		ArrayList<Integer> c = new ArrayList<Integer>();
+		c.add(4);
+		c.add(5);
+		list1.addAll(12,c);
+
+	}
+	
+	
 }
