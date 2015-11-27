@@ -340,3 +340,37 @@
 2015-11-17 14:24:54,099 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
 2015-11-17 14:24:58,108 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd
 2015-11-17 14:24:58,108 [Worker-9] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-11-27 14:08:07,625 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-11-27 14:08:08,276 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-27 14:08:08,605 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-11-27 14:08:09,666 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-27 14:08:09,695 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 319 resources
+2015-11-27 14:08:10,673 [Worker-4] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-11-27 14:09:56,832 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-11-27 14:10:08,526 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd
+2015-11-27 14:10:08,541 [Worker-5] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-11-27 14:10:09,463 [main] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is out-of-date. Remote download required.
+2015-11-27 14:15:13,666 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-11-27 14:15:13,666 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-27 14:15:13,682 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-11-27 14:15:13,807 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-11-27 14:15:13,916 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 319 resources
+2015-11-27 14:15:15,867 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2015-11-27 14:15:25,303 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.7.1.201405082137/jacoco-maven-plugin-0.7.1.201405082137.pom
+2015-11-27 14:15:25,412 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.7.1.201405082137/jacoco-maven-plugin-0.7.1.201405082137.pom
+2015-11-27 14:15:25,459 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.7.1.201405082137/org.jacoco.build-0.7.1.201405082137.pom
+2015-11-27 14:15:25,584 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jacoco/org.jacoco.build/0.7.1.201405082137/org.jacoco.build-0.7.1.201405082137.pom
+2015-11-27 14:15:25,678 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.7.1.201405082137/jacoco-maven-plugin-0.7.1.201405082137.jar
+2015-11-27 14:15:25,818 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jacoco/jacoco-maven-plugin/0.7.1.201405082137/jacoco-maven-plugin-0.7.1.201405082137.jar
+2015-11-27 14:15:27,146 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: istic:simpleGame:1 @ C:\Users\ellyn\Documents\GitHub\VV\TP2\Stubsmocks\simpleGame\pom.xml.
+2015-11-27 14:15:27,725 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /simpleGame/src/main/java
+2015-11-27 14:15:27,725 [Worker-3] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /simpleGame/src/test/java
+2015-11-27 14:15:27,787 [Worker-3] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2015-11-27 14:15:34,363 [Worker-10] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/ellyn/AppData/Local/Temp/RemoteBundleDiscoveryStrategy7919516793183850465.tmp/org.eclipse.m2e.discovery.oss_catalog_1.6.jar_2219051217452832533.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-egit.xml
+2015-11-27 14:15:34,363 [Worker-10] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+2015-11-27 14:15:34,363 [Worker-10] INFO  o.e.m.i.discovery.MavenDiscovery - No lifecyle mapping found at jar:file:/C:/Users/ellyn/AppData/Local/Temp/RemoteBundleDiscoveryStrategy7919516793183850465.tmp/org.eclipse.m2e.discovery.oss_catalog_1.6.jar_2219051217452832533.jar!/lifecycle%2Forg.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive.xml
+2015-11-27 14:15:34,363 [Worker-10] WARN  o.e.m.i.discovery.MavenDiscovery - CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+2015-11-27 14:15:34,691 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-27 14:15:34,691 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ellyn\Documents\GitHub\VV\TP2\Stubsmocks\simpleGame\src\main\resources
+2015-11-27 14:15:34,691 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2015-11-27 14:15:34,691 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\ellyn\Documents\GitHub\VV\TP2\Stubsmocks\simpleGame\src\test\resources
