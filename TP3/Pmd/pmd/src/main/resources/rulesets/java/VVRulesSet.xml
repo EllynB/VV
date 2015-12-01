@@ -22,4 +22,14 @@
             ]]>
         </example>
     </rule>
+    
+    <rule name="forImbriques"
+        message="Empecher que deux boucles for soient imbriquées"
+         language="java"
+        class="vv.tp3.forImbriques">
+        <description>
+            Empecher que deux boucles for soient imbriquées
+        </description>
+        <priority>3</priority>
+    </rule>
 </ruleset>
