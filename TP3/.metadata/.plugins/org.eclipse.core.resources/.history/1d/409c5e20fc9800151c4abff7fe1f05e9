@@ -16,12 +16,15 @@ public class lesErreurs {
 				a++;
 			}
 		}
+		while(false){
+			a--;
+		}
+
 		
 		while(b==true && a>0){
 			a--;
 			break;
 		}
-		
 	}
 
 }

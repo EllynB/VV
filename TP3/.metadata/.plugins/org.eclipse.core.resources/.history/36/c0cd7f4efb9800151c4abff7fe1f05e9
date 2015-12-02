@@ -5,7 +5,7 @@ import net.sourceforge.pmd.lang.java.ast.ASTExpression;
 import net.sourceforge.pmd.lang.java.ast.ASTWhileStatement;
 import net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;
 
-public class WhileInfini extends AbstractJavaRule {
+public class WhileEchap extends AbstractJavaRule {
 	
     public Object visit(ASTWhileStatement node, Object data) {
 		

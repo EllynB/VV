@@ -22,6 +22,9 @@ public class lesErreurs {
 			break;
 		}
 		
+		while(false){
+			a--;
+		}
 	}
 
 }

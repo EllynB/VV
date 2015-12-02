@@ -33,12 +33,12 @@
         <priority>3</priority>
     </rule>
     
-    <rule name="WhileEchap"
-        message="Empecher d'avoir des boucles while infini sans possibilité d'échappement"
+    <rule name="WhileInfini"
+        message="Empecher d'avoir des boucles while infini"
          language="java"
-        class="vv.tp3.WhileEchap">
+        class="vv.tp3.WhileInfini">
         <description>
-            Empecher d'avoir des boucles while infini sans possibilité d'échappement
+            Empecher d'avoir des boucles while infini
         </description>
         <priority>3</priority>
     </rule>
