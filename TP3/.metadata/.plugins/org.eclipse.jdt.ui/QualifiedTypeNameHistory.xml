@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.sourceforge.pmd.lang.java.ast.ASTWhileStatement"/>
+<fullyQualifiedTypeName name="net.sourceforge.pmd.lang.ecmascript.ast.ASTWhileLoop"/>
+<fullyQualifiedTypeName name="net.sourceforge.pmd.LanguageVersionDiscovererTest"/>
+<fullyQualifiedTypeName name="net.sourceforge.pmd.lang.java.ast.ASTBooleanLiteral"/>
+<fullyQualifiedTypeName name="net.sourceforge.pmd.lang.java.ast.ASTBlock"/>
+</qualifiedTypeNameHistroy>

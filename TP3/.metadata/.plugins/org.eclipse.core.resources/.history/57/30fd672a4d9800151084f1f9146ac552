@@ -1,0 +1,18 @@
+package vv.tp3;
+
+import net.sourceforge.pmd.lang.ecmascript.ast.ASTWhileLoop;
+import net.sourceforge.pmd.lang.java.ast.ASTWhileStatement;
+import net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;
+
+public class WhileInfini extends AbstractJavaRule {
+	
+    public Object visit(ASTWhileLoop node, Object data) {
+		
+    	String s = node.jjtGetChild(0).toString();
+    	if (s=="true") addViolation(data, node);
+    	if (s=="false") addViolation(data, node);
+    	
+    	return super.visit(node, data);
+    }
+
+}

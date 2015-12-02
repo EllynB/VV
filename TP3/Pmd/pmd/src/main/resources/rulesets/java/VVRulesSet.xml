@@ -32,4 +32,14 @@
         </description>
         <priority>3</priority>
     </rule>
+    
+    <rule name="WhileInfini"
+        message="Empecher d'avoir des boucles while infini"
+         language="java"
+        class="vv.tp3.WhileInfini">
+        <description>
+            Empecher d'avoir des boucles while infini
+        </description>
+        <priority>3</priority>
+    </rule>
 </ruleset>

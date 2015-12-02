@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<ruleset name="VVRules"
+    xmlns="http://pmd.sourceforge.net/ruleset/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 http://pmd.sourceforge.net/ruleset_2_0_0.xsd">
+
+    <rule name="WhileLoopsMustUseBracesRule"
+        message="Avoid using 'while' statements without curly braces"
+         language="java"
+        class="vv.tp3.WhileLoopsMustUseBracesRule">
+        <description>
+            Avoid using 'while' statements without using curly braces
+        </description>
+        <priority>3</priority>
+        
+        <example>
+            <![CDATA[
+                public void doSomething() {
+                while (x < 100)
+                x++;
+                }
+            ]]>
+        </example>
+    </rule>
+    
+    <rule name="forImbriques"
+        message="Empecher que deux boucles for soient imbriquées"
+         language="java"
+        class="vv.tp3.forImbriques">
+        <description>
+            Empecher que deux boucles for soient imbriquées
+        </description>
+        <priority>3</priority>
+    </rule>
+    
+        <rule name="WhileInfini"
+        message="Empecher d'avoir des boucles while infini"
+         language="java"
+        class="vv.tp3.WhileInfini">
+        <description>
+            Empecher d'avoir des boucles while infini
+        </description>
+        <priority>3</priority>
+    </rule>
+</ruleset>
