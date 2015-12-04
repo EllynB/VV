@@ -5,4 +5,12 @@
 <fullyQualifiedTypeName name="net.sourceforge.pmd.LanguageVersionDiscovererTest"/>
 <fullyQualifiedTypeName name="net.sourceforge.pmd.lang.java.ast.ASTBooleanLiteral"/>
 <fullyQualifiedTypeName name="net.sourceforge.pmd.lang.java.ast.ASTBlock"/>
+<fullyQualifiedTypeName name="net.sourceforge.pmd.lang.java.ast.ASTPrimaryExpression"/>
+<fullyQualifiedTypeName name="net.sourceforge.pmd.lang.java.ast.ASTExpression"/>
+<fullyQualifiedTypeName name="net.sourceforge.pmd.lang.java.ast.ASTBreakStatement"/>
+<fullyQualifiedTypeName name="net.sourceforge.pmd.lang.java.ast.ASTReturnStatement"/>
+<fullyQualifiedTypeName name="net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceBody"/>
+<fullyQualifiedTypeName name="net.sourceforge.pmd.lang.java.ast.ASTAnnotation"/>
+<fullyQualifiedTypeName name="net.sourceforge.pmd.lang.java.rule.junit.AbstractJUnitRule"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>

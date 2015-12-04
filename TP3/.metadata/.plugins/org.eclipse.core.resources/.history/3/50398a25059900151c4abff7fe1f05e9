@@ -1,0 +1,42 @@
+package vv.tp3;
+
+import java.util.List;
+
+import net.sourceforge.pmd.lang.ast.Node;
+import net.sourceforge.pmd.lang.java.ast.ASTAnnotation;
+import net.sourceforge.pmd.lang.java.rule.junit.*;
+import net.sourceforge.pmd.lang.java.ast.ASTBlock;
+import net.sourceforge.pmd.lang.java.ast.ASTClassOrInterfaceBody;
+import net.sourceforge.pmd.lang.java.ast.ASTForStatement;
+import net.sourceforge.pmd.lang.java.ast.ASTMethodDeclaration;
+import net.sourceforge.pmd.lang.java.ast.ASTName;
+import net.sourceforge.pmd.lang.java.ast.ASTResultType;
+import net.sourceforge.pmd.lang.java.ast.ASTTypeParameters;
+import net.sourceforge.pmd.lang.java.ast.TypeNode;
+import net.sourceforge.pmd.lang.java.rule.AbstractJavaRule;
+
+public class CompteDesTests extends AbstractJavaRule {
+
+	int c = 0;
+	
+	
+	
+	public Object visit(ASTMethodDeclaration method, Object data) {
+		
+		if(method.getMethodName().startsWith("test")) addViolation(data, method);
+		
+		List<ASTAnnotation> annot =  method.findDescendantsOfType(ASTAnnotation.class);
+		
+		for (ASTAnnotation annotation : annot) {
+            Node annotationTypeNode = annotation.jjtGetChild(0);
+            TypeNode annotationType = (TypeNode) annotationTypeNode;
+            if (annotationType.getType() == null) {
+                ASTName name = annotationTypeNode.getFirstChildOfType(ASTName.class);
+                if (name != null && "Test".equals(name.getImage())) addViolation(data, method);
+                	}
+            }
+        
+		
+		return super.visit(method, data);
+	}
+}

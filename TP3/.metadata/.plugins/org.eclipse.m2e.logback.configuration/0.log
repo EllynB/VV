@@ -771,3 +771,185 @@
 2015-12-02 14:56:58,294 [Worker-74] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2015-12-02 14:57:04,433 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd
 2015-12-02 14:57:04,433 [Worker-64] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-12-02 15:00:26,477 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:00:26,479 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:00:26,490 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:00:26,569 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:00:26,569 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:00:26,569 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:00:46,286 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:00:46,286 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:00:46,302 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:00:46,364 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:00:46,364 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:00:46,364 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:14:56,581 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:14:56,581 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:14:56,597 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:14:56,675 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:14:56,675 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:14:56,675 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:15:25,942 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:15:25,957 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:15:25,957 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:15:26,051 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:15:26,051 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:15:26,051 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:16:12,548 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:16:12,563 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:16:12,563 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2015-12-02 15:16:12,563 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:16:12,563 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:16:12,563 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:16:33,991 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2015-12-02 15:16:44,413 [Worker-77] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd
+2015-12-02 15:16:44,413 [Worker-77] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-12-02 15:20:38,025 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:20:38,025 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:20:38,025 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:20:38,103 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:20:38,103 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:20:38,103 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:26:05,511 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:26:05,511 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:26:05,511 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:26:05,589 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:26:05,589 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:26:05,589 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:27:31,676 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:27:31,692 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:27:31,692 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:27:31,770 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:27:31,770 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:27:31,770 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:27:44,624 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:27:44,624 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:27:44,624 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:27:44,702 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:27:44,702 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:27:44,702 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:30:17,758 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:30:17,758 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:30:17,758 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:30:17,836 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:30:17,836 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:30:17,836 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:30:29,264 [Worker-92] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd
+2015-12-02 15:30:29,264 [Worker-92] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-12-02 15:31:08,692 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:31:08,708 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:31:08,708 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:31:08,770 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:31:08,770 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:31:08,770 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:33:44,436 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:33:44,436 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:33:44,451 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:33:44,529 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:33:44,545 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:33:44,545 [Worker-82] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:36:18,899 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:36:18,914 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:36:18,914 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:36:18,914 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:36:18,914 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:36:18,914 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:36:31,978 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:36:31,994 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:36:31,994 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:36:32,072 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:36:32,072 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:36:32,072 [Worker-93] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:44:26,646 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:44:26,646 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:44:26,661 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:44:26,724 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:44:26,724 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:44:26,724 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:44:39,130 [Worker-89] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd
+2015-12-02 15:44:39,145 [Worker-89] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-12-02 15:46:29,965 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:46:29,965 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:46:29,981 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:46:30,075 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:46:30,075 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:46:30,075 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:46:46,218 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:46:46,218 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:46:46,218 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:46:46,327 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:46:46,327 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:46:46,327 [Worker-92] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:46:54,873 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd
+2015-12-02 15:46:54,873 [Worker-97] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-12-02 15:51:17,767 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:51:17,767 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:51:17,767 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:51:17,861 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:51:17,861 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:51:17,861 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:51:24,564 [Worker-107] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd
+2015-12-02 15:51:24,564 [Worker-107] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-12-02 15:51:40,833 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:51:40,833 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:51:40,849 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:51:41,021 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:51:41,021 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:51:41,021 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:57:11,197 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:57:11,213 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:57:11,213 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:57:11,215 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:57:11,215 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:57:11,215 [Worker-112] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:58:29,030 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:58:29,030 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:58:29,030 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:58:29,113 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:58:29,114 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:58:29,114 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:59:35,759 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 15:59:35,759 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:59:35,759 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 15:59:35,829 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 15:59:35,829 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 15:59:35,829 [Worker-105] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 16:01:05,705 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 16:01:05,705 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 16:01:05,705 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 16:01:05,781 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 16:01:05,782 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 16:01:05,782 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 16:05:06,285 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 16:05:06,285 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 16:05:06,285 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 16:05:06,363 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 16:05:06,363 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 16:05:06,363 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 16:06:29,061 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 16:06:29,061 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 16:06:29,077 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 16:06:29,140 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 16:06:29,140 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 16:06:29,140 [Worker-113] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 16:06:47,222 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 16:06:47,224 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 16:06:47,231 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 16:06:47,282 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 16:06:47,283 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 16:06:47,283 [Worker-107] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 16:06:55,725 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 16:06:55,741 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 16:06:55,741 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 16:06:55,809 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 16:06:55,809 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 16:06:55,809 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 16:07:04,099 [Worker-104] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd
+2015-12-02 16:07:04,099 [Worker-104] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B package
+2015-12-02 16:07:52,283 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Source directory: C:\Users\ellyn\Documents\GitHub\VV\TP3\Pmd\pmd\target\generated-sources\javacc added.
+2015-12-02 16:07:52,283 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 16:07:52,299 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 67 resources
+2015-12-02 16:07:52,393 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2015-12-02 16:07:52,393 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-02 16:07:52,393 [Worker-108] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2015-12-04 09:38:02,598 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to build parent project for net.sourceforge.pmd:pmd:jar:5.0.5

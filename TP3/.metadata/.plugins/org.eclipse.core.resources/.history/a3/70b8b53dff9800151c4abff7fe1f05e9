@@ -42,15 +42,4 @@
         </description>
         <priority>3</priority>
     </rule>
-    
-    
-    <rule name="CompteDesTests"
-        message="Test Junit trouve"
-         language="java"
-        class="vv.tp3.WhileEchap">
-        <description>
-            Test Junit trouve
-        </description>
-        <priority>3</priority>
-    </rule>
 </ruleset>
